@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Abdullah Zunorain – Electrical Engineer & AI/ML Developer from Pakistan. Portfolio showcasing Deep Learning, NLP, Agentic AI, and Embedded Systems projects." />
+  <title>Abdullah Zunorain | AI/ML Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ─── NAVBAR ─── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">AZ<span class="dot">.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home"     class="nav-link active">Home</a></li>
+        <li><a href="#about"    class="nav-link">About</a></li>
+        <li><a href="#skills"   class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact"  class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ─── HERO ─── -->
+  <section class="hero" id="home">
+    <canvas id="particles"></canvas>
+    <div class="hero-body">
+      <div class="badge-row">
+        <span class="badge-dot"></span>
+        <span>Open to Opportunities</span>
+      </div>
+      <h1 class="hero-heading">
+        Hi, I'm <span class="grad">Abdullah Zunorain</span>
+      </h1>
+      <p class="hero-sub">
+        <span id="typingTarget"></span><span class="caret">|</span>
+      </p>
+      <p class="hero-desc">
+        Electrical Engineer turned AI/ML developer from Pakistan — building intelligent systems
+        at the intersection of Deep Learning, NLP, and Agentic AI.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary"><i class="fas fa-rocket"></i> View Projects</a>
+        <a href="#contact"  class="btn btn-outline"><i class="fas fa-envelope"></i> Hire Me</a>
+        <a href="https://github.com/abdullahzunorain" target="_blank" rel="noopener" class="btn btn-ghost">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-n">67</span><span class="stat-l">Repos</span></div>
+        <div class="stat-sep"></div>
+        <div class="stat"><span class="stat-n">17</span><span class="stat-l">Followers</span></div>
+        <div class="stat-sep"></div>
+        <div class="stat"><span class="stat-n">3+</span><span class="stat-l">Yrs Exp.</span></div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-down" aria-label="Scroll down">
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ─── ABOUT ─── -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">About Me</span>
+        <h2>Who I Am</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-left reveal">
+          <div class="avatar-wrap">
+            <div class="avatar-ring"></div>
+            <div class="avatar-inner">
+              <img
+                src="https://avatars.githubusercontent.com/u/92226009?v=4"
+                alt="Abdullah Zunorain"
+                class="avatar-img"
+                onerror="this.style.display='none';document.querySelector('.avatar-fallback').style.display='flex'"
+              />
+              <div class="avatar-fallback"><i class="fas fa-user"></i></div>
+            </div>
+            <div class="avatar-badge"><i class="fas fa-map-marker-alt"></i> Pakistan</div>
+          </div>
+          <div class="about-socials">
+            <a href="https://github.com/abdullahzunorain" target="_blank" rel="noopener" class="soc-btn" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/abdullahzunorain" target="_blank" rel="noopener" class="soc-btn" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.kaggle.com/abdullahzunorain" target="_blank" rel="noopener" class="soc-btn" aria-label="Kaggle">
+              <i class="fab fa-kaggle"></i>
+            </a>
+          </div>
+        </div>
+        <div class="about-right reveal">
+          <h3>Electrical Engineer &amp; AI Developer</h3>
+          <p>
+            I'm an Electrical Engineer with a deep passion for Artificial Intelligence and Machine Learning.
+            My journey spans embedded systems and hardware design all the way to cutting-edge AI — including
+            Deep Learning, Natural Language Processing, and Agentic AI systems.
+          </p>
+          <p>
+            I thrive at the intersection of hardware and software, building intelligent solutions that make
+            real-world impact. From medical image segmentation to LLM-powered agents, I'm constantly
+            exploring how technology can solve complex problems.
+          </p>
+          <div class="highlights">
+            <div class="hl-card">
+              <i class="fas fa-brain hl-icon"></i>
+              <div>
+                <strong>ML &amp; Deep Learning</strong>
+                <span>YOLOv8, VGG16, BERT, CNNs, Transfer Learning</span>
+              </div>
+            </div>
+            <div class="hl-card">
+              <i class="fas fa-robot hl-icon"></i>
+              <div>
+                <strong>Agentic AI</strong>
+                <span>OpenAI Agents SDK, Claude Code, MCP, DACA</span>
+              </div>
+            </div>
+            <div class="hl-card">
+              <i class="fas fa-microchip hl-icon"></i>
+              <div>
+                <strong>Embedded Systems</strong>
+                <span>8051 MCU, Proteus, ADC/DAC, Servo Motors</span>
+              </div>
+            </div>
+            <div class="hl-card">
+              <i class="fas fa-chart-bar hl-icon"></i>
+              <div>
+                <strong>Data Science</strong>
+                <span>Python, Pandas, SQL, Streamlit, Business Intelligence</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SKILLS ─── -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">Technical Skills</span>
+        <h2>Technologies I Work With</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <div class="skill-card-head">
+            <i class="fas fa-code"></i>
+            <h3>Languages</h3>
+          </div>
+          <div class="tags">
+            <span>Python</span><span>JavaScript</span><span>C / C++</span>
+            <span>MATLAB</span><span>SQL</span><span>HTML / CSS</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-card-head">
+            <i class="fas fa-brain"></i>
+            <h3>ML &amp; Deep Learning</h3>
+          </div>
+          <div class="tags">
+            <span>TensorFlow</span><span>PyTorch</span><span>YOLOv8</span>
+            <span>VGG16</span><span>CNN</span><span>Scikit-Learn</span>
+            <span>Transfer Learning</span><span>Random Forest</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-card-head">
+            <i class="fas fa-language"></i>
+            <h3>NLP &amp; LLMs</h3>
+          </div>
+          <div class="tags">
+            <span>BERT / DistilBERT</span><span>Transformers</span>
+            <span>Text Classification</span><span>Sentiment Analysis</span>
+            <span>NLP Preprocessing</span><span>Fine-Tuning</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-card-head">
+            <i class="fas fa-robot"></i>
+            <h3>Agentic AI</h3>
+          </div>
+          <div class="tags">
+            <span>OpenAI Agents SDK</span><span>Claude Code</span>
+            <span>MCP</span><span>DACA Pattern</span><span>LangChain</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-card-head">
+            <i class="fas fa-database"></i>
+            <h3>Data Science</h3>
+          </div>
+          <div class="tags">
+            <span>Pandas</span><span>NumPy</span><span>Matplotlib</span>
+            <span>Seaborn</span><span>Streamlit</span><span>Jupyter</span>
+            <span>Excel / BI</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-card-head">
+            <i class="fas fa-microchip"></i>
+            <h3>Embedded Systems</h3>
+          </div>
+          <div class="tags">
+            <span>8051 MCU</span><span>Proteus</span><span>Circuit Design</span>
+            <span>ADC / DAC / RTC</span><span>EEPROM</span><span>Servo Motors</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROJECTS ─── -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">My Work</span>
+        <h2>Featured Projects</h2>
+        <p class="section-sub">A curated selection across AI/ML, NLP, Data Science, and Embedded Systems</p>
+      </div>
+      <div class="filter-row reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="ml">ML / DL</button>
+        <button class="filter-btn" data-filter="nlp">NLP</button>
+        <button class="filter-btn" data-filter="data">Data Science</button>
+        <button class="filter-btn" data-filter="agent">AI Agents</button>
+        <button class="filter-btn" data-filter="embedded">Embedded</button>
+      </div>
+      <div class="proj-grid" id="projGrid">
+        <!-- Injected by script.js -->
+      </div>
+      <div class="proj-footer reveal">
+        <a href="https://github.com/abdullahzunorain?tab=repositories" target="_blank" rel="noopener" class="btn btn-outline">
+          <i class="fab fa-github"></i> All Repositories
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ─── -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">Get In Touch</span>
+        <h2>Contact Me</h2>
+        <p class="section-sub">Have a project in mind or want to collaborate? Let's talk.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="ci-item">
+            <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:abdullahzunorain@gmail.com">abdullahzunorain@gmail.com</a>
+            </div>
+          </div>
+          <div class="ci-item">
+            <div class="ci-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <strong>Location</strong>
+              <span>Pakistan</span>
+            </div>
+          </div>
+          <div class="ci-item">
+            <div class="ci-icon"><i class="fab fa-github"></i></div>
+            <div>
+              <strong>GitHub</strong>
+              <a href="https://github.com/abdullahzunorain" target="_blank" rel="noopener">
+                @abdullahzunorain
+              </a>
+            </div>
+          </div>
+          <div class="ci-item">
+            <div class="ci-icon"><i class="fab fa-linkedin-in"></i></div>
+            <div>
+              <strong>LinkedIn</strong>
+              <a href="https://www.linkedin.com/in/abdullahzunorain" target="_blank" rel="noopener">
+                abdullahzunorain
+              </a>
+            </div>
+          </div>
+          <div class="ci-socials">
+            <a href="https://github.com/abdullahzunorain"         target="_blank" rel="noopener" class="ci-soc"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/abdullahzunorain" target="_blank" rel="noopener" class="ci-soc"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.kaggle.com/abdullahzunorain"      target="_blank" rel="noopener" class="ci-soc"><i class="fab fa-kaggle"></i></a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="field-row">
+            <div class="form-field">
+              <label for="fname">Name</label>
+              <input type="text" id="fname" name="name" placeholder="Your Name" autocomplete="name" required />
+              <span class="field-err" id="nameErr"></span>
+            </div>
+            <div class="form-field">
+              <label for="femail">Email</label>
+              <input type="email" id="femail" name="email" placeholder="you@example.com" autocomplete="email" required />
+              <span class="field-err" id="emailErr"></span>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="fsubject">Subject</label>
+            <input type="text" id="fsubject" name="subject" placeholder="Project Collaboration" required />
+            <span class="field-err" id="subjectErr"></span>
+          </div>
+          <div class="form-field">
+            <label for="fmessage">Message</label>
+            <textarea id="fmessage" name="message" rows="5" placeholder="Tell me about your project…" required></textarea>
+            <span class="field-err" id="msgErr"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="footer">
+    <div class="container">
+      <a href="#home" class="footer-logo">AZ<span class="dot">.</span></a>
+      <p class="footer-copy">© 2026 Abdullah Zunorain · All rights reserved.</p>
+      <p class="footer-built">Built with <i class="fas fa-heart" style="color:#f43f5e"></i> and pure HTML/CSS/JS</p>
+    </div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
